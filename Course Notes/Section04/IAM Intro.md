@@ -16,9 +16,13 @@ Assign groups permissions and users to groups.
 
 Users can belong to multiple groups. 
 
+## A Global Service
+
+IAM settings are GLOBAL. Once you set them, they are available in ALL regions. You can see this when you drop into the IAM Console. In the drop-down menu for regions, you will see the word "Global" for these types of services. 
+
 ## Permissions
 
-Users and Groups can be assigned JSON documents called **policies**. 
+Users and Groups can be assigned JSON documents called **policies**, which looks like the example below.
 
 ```json
 
@@ -47,4 +51,12 @@ Users and Groups can be assigned JSON documents called **policies**.
     ]
 }
 ```
+
+In AWS you should provide the principle of least privledge. That might be in the test.
+
+## Account Alias
+
+It is possible to create an alias for the root account, which changes and simplifies the console login URL.
+
+Example: Joe Bob has the accont number of 876xxxx and wants to simplify that. He adds an alias for his root account of joebob and now when he goes to the AWS console he can enter that alias instead of his account number, and then login as his admin user. 
 
