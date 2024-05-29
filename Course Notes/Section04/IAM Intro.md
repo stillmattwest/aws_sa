@@ -22,7 +22,7 @@ IAM settings are GLOBAL. Once you set them, they are available in ALL regions. Y
 
 ## Permissions
 
-Users and Groups can be assigned JSON documents called **policies**, which looks like the example below.
+Users and Groups can be assigned JSON documents called **policies**, which look like the example below.
 
 ```json
 
