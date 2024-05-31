@@ -33,11 +33,11 @@ Policies are structured in JSON documents.
 
 **Version**: The policy language version. Always include "2012-10-17"
 
-**Id**: An identifier for the policy. User selected. Optional.
+* **Id**: An identifier for the policy. User selected. Optional.
 
-**Statement**: One or more individual statements (required)
+* **Statement**: One or more individual statements (required)
 
-### Statements consist of
+### Statements consist of:
 
 * Sid: An identifier for the statement (optional)
 * Effect: Either Allow or Deny
