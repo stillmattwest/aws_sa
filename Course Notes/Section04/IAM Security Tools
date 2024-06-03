@@ -1,0 +1,23 @@
+# IAM Security Tools
+
+## The IAM Credentials Report (account-level)
+
+- A report that lists all your account's users and the status of their various credentials.
+
+## IAM Access Advisor (user-level)
+
+- Access advisor shows the service permissions granted to a user and when those services were last accessed.
+
+* You can use this information to revise policies.
+
+## Using IAM Credentials Report
+
+In the AWS Console, go IAM => Credential Report. This will download a CSV with all the data.
+
+## Using Access Advisor
+
+Go IAM => Users => UserName => Access Advisor Tab.
+
+What you get is a list of services accessed by this user along with some data about how and when. Useful.
+
+<img src="../../img/access_advisor.png"/>
