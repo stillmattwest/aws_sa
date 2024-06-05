@@ -39,9 +39,12 @@ Policies are structured in JSON documents.
 
 ### Statements consist of:
 
-* Sid: An identifier for the statement (optional)
-* Effect: Either Allow or Deny
-* Principal: account, user, or role that this policy applies to.
-* Action: A list of actions this policy allows or denies.
-* Resource: A list of resources this action applies to.
-* Condition: Conditions for when this policy is in effect (optional, no example)
+* **Sid**: An identifier for the statement (optional)
+* **Effect**: Either Allow or Deny
+* **Principal**: account, user, or role that this policy applies to.
+* **Action**: A list of actions this policy allows or denies.
+* **Resource**: A list of resources this action applies to.
+* **Condition**: Conditions for when this policy is in effect (optional, no example)
+
+The **TLDR** of all this is that a policy allows an effect (allow or deny) on a given set of actions (get, put, whatever) on a specific resource. That makes sense. 
+
