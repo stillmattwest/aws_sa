@@ -32,5 +32,6 @@ Instances in one partition do not share hardware with instances in another parti
 
 Use cases are mostly for big data. 
 
+Placement Groups are configured from the EC2 dashboard in console.
 
 
