@@ -22,3 +22,7 @@ You can launch EC2 instances from:
 * Build an AMI from the instance. This will also create EBS snapshots.
 * Launch instances from the AMI.
 
+## Creating an AMI
+
+Just right-click an instance in the console, select images, and create an image. 
+
